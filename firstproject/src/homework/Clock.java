@@ -1,6 +1,8 @@
 package homework;
 
 public class Clock {
+	
+//	Question 2
 
 	private int hour;
 	private int min;
@@ -74,13 +76,13 @@ public class Clock {
 		int sec1 = this.hour*3600 + this.min*60 + this.sec;
 		int sec2 = otherclock.hour*3600 + otherclock.min * 60 + otherclock.sec;
 		int sec3 = (sec1 - sec2 + 86400)%86400;
-		return otherClock;
+		return otherclock;
 	}
 
-	private int Clock(int sec3) {
-		// TODO Auto-generated method stub
-		return sec3;
-	}
+//	private int Clock(int sec3) {
+//		// TODO Auto-generated method stub
+//		return sec3;
+//	}
 	
 
 

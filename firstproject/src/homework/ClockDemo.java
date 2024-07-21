@@ -2,6 +2,8 @@ package homework;
 import java.util.*;
 
 public class ClockDemo {
+	
+//	Question 2
 
 	public static void main(String[] args) {
 		
