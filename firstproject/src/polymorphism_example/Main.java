@@ -19,7 +19,7 @@ public class Main {
 		System.out.println("3. Credit Card");
 
 		int choice = sc.nextInt();
-		sc.nextLine(); // Consume newline left-over
+		sc.nextLine(); 
 
 		switch (choice) {
 		case 1:

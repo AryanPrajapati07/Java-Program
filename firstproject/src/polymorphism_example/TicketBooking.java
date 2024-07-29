@@ -69,7 +69,7 @@ public class TicketBooking {
 		this.noOfSeats = noOfSeats;
 	}
 
-	// Method to handle payment by cash
+	
 	public void makePayment(double amount) {
 		this.amount = amount;
 		this.paymentMethod = "Cash";
@@ -77,7 +77,7 @@ public class TicketBooking {
 		printReceipt();
 	}
 
-	// Method to handle payment by online wallet
+	
 	public void makePayment(String walletName, double amount) {
 		this.amount = amount;
 		this.paymentMethod = "Online Wallet";
@@ -85,7 +85,7 @@ public class TicketBooking {
 		printReceipt();
 	}
 
-	// Method to handle payment by credit card
+	
 	public void makePayment(long cardNumber, String cardType, double amount) {
 		this.amount = amount;
 		this.paymentMethod = "Credit Card";
@@ -93,7 +93,7 @@ public class TicketBooking {
 		printReceipt();
 	}
 
-	// Method to print receipt
+	
 	private void printReceipt() {
 		System.out.println("Receipt");
 		System.out.println("Stage Event: " + stageEvent);
