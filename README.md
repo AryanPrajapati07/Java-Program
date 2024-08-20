@@ -1,6 +1,4 @@
-Here is a sample README file for a collection of Java programs demonstrating Object-Oriented Programming (OOP) concepts. You can customize it based on your project structure and specific programs.
 
----
 
 # OOP Concepts in Java
 
@@ -24,44 +22,6 @@ Each program focuses on a specific concept or a combination of concepts to help 
 
 - JDK installed (version 8 or above)
 - Any IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans) or a simple text editor and terminal
-
-## OOP Concepts and Program Files
-
-### 1. Classes and Objects
-- **Program**: `ClassObjectDemo.java`
-- **Description**: This program demonstrates the creation of classes, objects, and methods.
-
-### 2. Encapsulation
-- **Program**: `EncapsulationDemo.java`
-- **Description**: Shows how encapsulation is achieved by making class fields private and providing public getter and setter methods.
-
-### 3. Inheritance
-- **Program**: `InheritanceDemo.java`
-- **Description**: Demonstrates inheritance, where a class inherits properties and behaviors from another class.
-
-### 4. Polymorphism
-- **Program**: `PolymorphismDemo.java`
-- **Description**: Covers both compile-time (method overloading) and runtime polymorphism (method overriding).
-
-### 5. Abstraction
-- **Program**: `AbstractionDemo.java`
-- **Description**: Shows the use of abstract classes and abstract methods to achieve abstraction.
-
-### 6. Constructors
-- **Program**: `ConstructorDemo.java`
-- **Description**: Explains the role of constructors in Java, including parameterized constructors.
-
-### 7. Static Members
-- **Program**: `StaticDemo.java`
-- **Description**: Illustrates the use of static methods and static variables in Java.
-
-### 8. Interfaces
-- **Program**: `InterfaceDemo.java`
-- **Description**: Demonstrates how interfaces work and how they are used for achieving multiple inheritance in Java.
-
-### 9. Abstract Classes
-- **Program**: `AbstractClassDemo.java`
-- **Description**: Focuses on the concept of abstract classes, which allow for some implementation and some abstract methods.
 
 ## How to Run the Programs
 
